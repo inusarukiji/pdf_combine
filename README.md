@@ -1,10 +1,9 @@
-# pdf_combine
-
+# README
 フォルダ内のpdfファイルを結合するソフト  
   
-### **pdf_combine_cui**  
+- ### **pdf_combine_cui**  
 コマンドプロンプトでpythonスクリプトファイルのパスとpdfファイルが格納されたフォルダのパスの２つを引数にとる  
-### **pdf_combine_dialog**  
+- ### **pdf_combine_dialog**  
 ダイアログ形式のwindowが開くのでそこでpdfファイルが格納されたフォルダを選択する  
 exe版はpyinstallerで実行ファイル化したもので、64bitWindowsで動く。  
 
