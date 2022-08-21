@@ -9,4 +9,5 @@
 exe版はpyinstallerで実行ファイル化したもので、64bitWindowsで動く。  
 
 ### 注意事項
-pdf_cobine_dialogはPyPDF2をimportしているため、ファイルパスに日本語を含むことができない
+pdf_cobine_dialogはPyPDF2をimportしているため、ファイルパスに日本語を含むことができない。  
+出力結果は指定フォルダ内に"仮"という名称で作成される。したがって"仮"という名称のファイルを予めフォルダ内に含めないようにすること。
