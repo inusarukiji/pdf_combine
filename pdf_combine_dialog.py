@@ -4,11 +4,15 @@
 ・Cドライブが存在する
 """
 
-
+import tkinter
 import tkinter.filedialog
 from pathlib import Path
 import PyPDF2
 import datetime
+
+#空白のwindowが見えないように隠す
+root=tkinter.Tk()
+root.withdraw()
 
 # 結合させるpdfファイルが入っているフォルダをファイルダイアログにて選択
 idir = 'C:'
